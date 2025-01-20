@@ -1,37 +1,67 @@
-Project Title: Random Cursor: Personalized Cursor Animation Extension
-Project Overview
-Random Cursor is a web extension that makes user interaction even more engaging through changing the cursor to a randomly animated design with every refresh or when navigating to a new page. Users are allowed to sign up and sign in to save favorite cursors, create playlists, and more. Users can upload personally animated cursors, pick from a gallery, and sort favorite cursors into playlists. This extension is built on top of the MERN stack - MongoDB, Express.js, React, Node.js for both the back-end and front-end application. This extension is built with the user in mind to give users a seamless experience on whatever device they might use, keeping the data synced between multiple devices.
+**Project Title:** Random Cursor: Personalized Cursor Animation Extension  
 
-Important Features
-Dynamic Cursor Animation: A random animated cursor is applied every time a page is refreshed or when navigating to a new page.
-User Authentication (Sign In/Sign Up): Users will have a secure way of creating an account, log in, and save their favorite cursors.
-Favorite Cursors: Users can save cursors to a favorites list and create a personalized cursor playlist. Users will be able to upload personal animated cursors- e.g. cur, gif- to a profile.
-Cursor Playlists : User can favourite some cursors, organize these favourites into lists or playlists for quick switching.
-Cross Device Synchronization- data, from the user-end perspective (cursors, playlists preferences, etc are synched, cross-device from the backend.).
-User Profile Page: It will be a specific page where a user can manage his cursor playlists, preferences, and account settings.
-Cursor Gallery: A collection of pre-defined animated cursors ready for the users to explore and add to the user's playlist.
-Tech Stack:
-1. Front-end:
-React: Used to build the sign-up/sign-in pages, Cursor Gallery, and profile page. For designing the extension and UI components using CSS/SCSS to have a responsive design and look;
-Axios will be used to make HTTP requests to the server backend for user data and information of the cursor; Browser Extension APIs to perform the functionality related to changing cursors and then apply them over web pages.
-2. Backend :
-Node.js: Server-side logic for the request and keeping up with functionality in the backhand. Express.js : This will create RESTful APIs which manages the authentication of user as well as the cursor data or playlist.
-MongoDB: It's NoSQL database which holds information related to user and favourite cursors as well as playlist. Flexible schema in MongoDB provides for the dynamic storage of content which comes from users.
-Mongoose: A MongoDB object modeling library that provides easy-to-use schema definitions and query functions.
-JWT (JSON Web Tokens): Secure user authentication and token-based session management.
-3. Authentication and Data Management:
-Passport.js: For secure user authentication.
-JWT (JSON Web Tokens): For stateless authentication and making sure user data is securely stored and retrieved.
-Why This Project:
-Personalization:
-This project will provide a very customizable web experience, enabling users to change their cursor and create a personalized browsing experience.
+**Project Overview**  
+*Random Cursor* is a web extension designed to enhance user interaction by dynamically changing the cursor to a randomly animated design on every page refresh or navigation. This extension offers personalization features, including user account creation, saving favorite cursors, and organizing them into playlists. Users can upload custom animated cursors, browse a curated gallery, and sync their preferences across devices. Built using the MERN stack—MongoDB, Express.js, React, and Node.js—the extension provides a seamless, cross-platform experience.  
 
-Learning Opportunities:
-MERN Stack Development: This project will enable me to build full-stack applications using the MERN stack, consisting of MongoDB, Express.js, React, and Node.js, which is one of the modern, widely used stacks for web application development.
-Browser Extension Development: I will learn by doing and get hands-on experience with browser extension APIs; how extensions can interact with web pages and modify their behavior. Implementing secure user authentication using JWT and Passport.js: Now, I will understand how to manage users safely.
-Real-time data syncing: Using MongoDB to store user data and syncing it across multiple devices will give insight into handling user preferences and managing cloud data.
-Full-Stack Development: I will learn building both the backend and the frontend using the MERN stack, handling everything from the database to the end-user interface, learning both back-end and front-end development.
-Browser API Integration: I will learn how to create and deploy a browser extension that interacts with the DOM and affects the user's browsing experience.
-Cloud Data Management: MongoDB, and Express - will enable me to learn how real-time data synching is working, and learn the ways how the cloud stores and retrieves a user's specifics.
-Value of this project
-This project provides both entertainment and utility, offering users a fun and personalized way to interact with web pages while learning about modern web technologies. It combines browser extension development, user authentication, and cloud-based data management in a single project. The skills learned will be useful for building a wide range of web applications, from simple extensions to complex full-stack solutions.
+**Key Features**  
+
+1. **Dynamic Cursor Animations**  
+   - A new animated cursor is applied every time the page refreshes or when navigating to a new page.  
+
+2. **User Authentication**  
+   - Secure sign-up and sign-in functionality using modern authentication protocols.  
+
+3. **Favorites and Playlists**  
+   - Save favorite cursors and organize them into personalized playlists for easy switching.  
+
+4. **Custom Cursor Uploads**  
+   - Users can upload custom animated cursors (e.g., `.cur`, `.gif`) for a unique experience.  
+
+5. **Cross-Device Synchronization**  
+   - Preferences, playlists, and saved cursors are synced across devices via the backend.  
+
+6. **User Profile Management**  
+   - A dedicated profile page for managing playlists, preferences, and account settings.  
+
+7. **Cursor Gallery**  
+   - A pre-built collection of animated cursors for users to explore, select, and add to their playlists.  
+
+**Tech Stack**  
+
+1. **Frontend**  
+   - **React:** Development of responsive UI components for the sign-up/sign-in pages, Cursor Gallery, and profile management.  
+   - **CSS/SCSS:** Design and styling for a polished and adaptive user interface.  
+   - **Axios:** Facilitate HTTP requests to the backend.  
+   - **Browser Extension APIs:** Enable cursor animation functionality across web pages.  
+
+2. **Backend**  
+   - **Node.js:** Server-side logic for handling requests and functionality.  
+   - **Express.js:** RESTful APIs for user authentication and cursor data management.  
+   - **MongoDB:** Flexible NoSQL database for storing user data, favorites, and playlists.  
+   - **Mongoose:** Simplifies MongoDB schema definitions and queries.  
+   - **JWT (JSON Web Tokens):** Ensure secure, token-based user authentication.  
+
+3. **Authentication and Data Management**  
+   - **Passport.js:** Secure user authentication.  
+   - **JWT:** Stateless authentication and secure data retrieval.  
+
+**Why This Project?**  
+
+1. **Personalization**  
+   - *Random Cursor* provides a highly customizable browsing experience, enabling users to personalize interactions through animated cursors.  
+
+2. **Learning Opportunities**  
+   - **MERN Stack Development:** Gain hands-on experience building full-stack applications with one of the most popular modern web development stacks.  
+   - **Browser Extension Development:** Learn to use browser extension APIs to interact with web pages and enhance user experiences.  
+   - **Authentication and Security:** Implement secure user authentication with JWT and Passport.js.  
+   - **Real-Time Data Syncing:** Explore methods to manage and sync user preferences across devices using MongoDB.  
+   - **Cloud Data Management:** Understand how cloud-based systems store and retrieve user-specific data.  
+
+3. **Full-Stack Development**  
+   - This project integrates frontend and backend technologies, offering a comprehensive understanding of developing and managing web applications.  
+
+4. **Browser API Integration**  
+   - Develop an extension that modifies web page interactions and integrates seamlessly with browser functionality.  
+
+**Value of the Project**  
+*Random Cursor* combines entertainment and utility, creating a fun and personalized web browsing experience. For developers, it offers a unique opportunity to master the MERN stack, browser extension APIs, user authentication, and cloud data management. The skills acquired through this project can be applied to a wide range of web applications, from simple extensions to complex full-stack solutions.
